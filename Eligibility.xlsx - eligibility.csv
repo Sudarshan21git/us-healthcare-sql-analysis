@@ -1,0 +1,101 @@
+MEMBER_ID,EMPLOYEE_ID,FIRST_NAME,LAST_NAME,GENDER,DOB,REL_CODE,GROUP_ID,GROUP_NAME,CARRIER_ID,CARRIER_NAME,PLAN_ID,PLAN_NAME,COVERAGE_TYPE,EFFECTIVE_DATE,TERMINATION_DATE,MEMBER_STATUS
+MBR100001,EMP50001,Kenneth,Davis,M,1974-09-04,E,GRP1002,Northstar Logistics LLC,CAR01,Anthem Blue Cross Blue Shield,PLN104,EPO Silver 1500,EE Only,2025-04-24,,Active
+MBR100002,EMP50002,Mary,Garcia,M,1970-11-15,S,GRP1001,Acme Manufacturing Inc,CAR05,Humana,PLN101,HMO Silver 2500,Family,2023-03-28,,Active
+MBR100003,EMP50002,Sarah,Smith,M,2012-08-19,E,GRP1003,BlueRiver Financial Group,CAR02,UnitedHealthcare,PLN101,HMO Silver 2500,EE + Child(ren),2022-07-29,,Active
+MBR100004,EMP50003,Michael,Thompson,F,2004-02-29,E,GRP1001,Acme Manufacturing Inc,CAR04,Cigna,PLN104,EPO Silver 1500,EE Only,2024-02-15,,Active
+MBR100005,EMP50003,Charles,Flores,F,2001-10-18,E,GRP1001,Acme Manufacturing Inc,CAR01,Anthem Blue Cross Blue Shield,PLN101,HMO Silver 2500,EE + Child(ren),2022-06-13,2022-10-02,Terminated
+MBR100006,EMP50004,Matthew,Moore,F,2007-01-12,D,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN102,HDHP Bronze 5000,EE + Spouse,2025-10-04,,Active
+MBR100007,EMP50004,Carol,Jones,M,1997-12-02,D,GRP1002,Northstar Logistics LLC,CAR04,Cigna,PLN103,PPO Platinum 500,EE + Child(ren),2025-08-03,,Active
+MBR100008,EMP50005,Joseph,Lee,M,1970-07-20,D,GRP1003,BlueRiver Financial Group,CAR04,Cigna,PLN102,HDHP Bronze 5000,EE Only,2023-03-09,2024-02-22,Terminated
+MBR100009,EMP50005,Amanda,Lee,M,2008-10-20,E,GRP1006,Cedar Point Technologies,CAR04,Cigna,PLN101,HMO Silver 2500,EE + Child(ren),2022-10-13,,Active
+MBR100010,EMP50006,Emily,Wright,F,2002-06-12,E,GRP1005,Pioneer Health Systems,CAR04,Cigna,PLN102,HDHP Bronze 5000,EE + Spouse,2022-10-11,,Active
+MBR100011,EMP50006,Jennifer,Brown,M,1963-09-18,S,GRP1006,Cedar Point Technologies,CAR04,Cigna,PLN104,EPO Silver 1500,EE Only,2024-02-28,,Active
+MBR100012,EMP50007,Sandra,King,F,1999-08-20,D,GRP1001,Acme Manufacturing Inc,CAR01,Anthem Blue Cross Blue Shield,PLN104,EPO Silver 1500,EE + Child(ren),2025-08-05,,Active
+MBR100013,EMP50007,Charles,Ramirez,M,1990-09-15,E,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Spouse,2024-11-05,2025-11-20,Terminated
+MBR100014,EMP50008,Karen,Allen,M,1963-09-18,E,GRP1002,Northstar Logistics LLC,CAR05,Humana,PLN104,EPO Silver 1500,EE Only,2025-05-11,,Active
+MBR100015,EMP50008,Mary,Davis,F,1977-08-03,E,GRP1002,Northstar Logistics LLC,CAR05,Humana,PLN100,PPO Gold 1000,EE Only,2024-09-22,2025-12-15,Terminated
+MBR100016,EMP50009,Paul,Rodriguez,M,2009-03-10,E,GRP1005,Pioneer Health Systems,CAR02,UnitedHealthcare,PLN102,HDHP Bronze 5000,Family,2023-03-10,2024-05-29,Terminated
+MBR100017,EMP50009,George,Gonzalez,F,1985-10-18,D,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN103,PPO Platinum 500,Family,2022-09-05,,Active
+MBR100018,EMP50010,Robert,Perez,M,2002-10-12,S,GRP1005,Pioneer Health Systems,CAR02,UnitedHealthcare,PLN100,PPO Gold 1000,EE Only,2025-12-20,,Active
+MBR100019,EMP50010,Joseph,Jones,M,1979-08-24,E,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Spouse,2025-01-09,,Active
+MBR100020,EMP50011,Andrew,Torres,F,1971-10-20,D,GRP1004,Summit Retail Corp,CAR02,UnitedHealthcare,PLN100,PPO Gold 1000,EE Only,2025-09-11,,Active
+MBR100021,EMP50011,Margaret,Clark,F,2015-05-30,E,GRP1006,Cedar Point Technologies,CAR01,Anthem Blue Cross Blue Shield,PLN100,PPO Gold 1000,Family,2023-11-26,2024-03-20,Terminated
+MBR100022,EMP50012,Jessica,Gonzalez,M,1998-02-11,E,GRP1004,Summit Retail Corp,CAR02,UnitedHealthcare,PLN102,HDHP Bronze 5000,Family,2023-05-27,2023-09-02,Terminated
+MBR100023,EMP50012,Mark,Scott,M,1954-07-16,S,GRP1005,Pioneer Health Systems,CAR01,Anthem Blue Cross Blue Shield,PLN100,PPO Gold 1000,EE + Spouse,2022-12-07,,Active
+MBR100024,EMP50013,Donald,Wilson,F,1955-04-06,E,GRP1001,Acme Manufacturing Inc,CAR04,Cigna,PLN102,HDHP Bronze 5000,Family,2023-08-08,,Active
+MBR100025,EMP50013,George,Scott,F,1963-11-21,E,GRP1002,Northstar Logistics LLC,CAR01,Anthem Blue Cross Blue Shield,PLN104,EPO Silver 1500,EE Only,2023-10-05,,Active
+MBR100026,EMP50014,Donna,Walker,M,1955-02-07,D,GRP1001,Acme Manufacturing Inc,CAR02,UnitedHealthcare,PLN100,PPO Gold 1000,EE Only,2025-10-14,2026-07-07,Terminated
+MBR100027,EMP50014,Linda,Torres,M,2001-12-09,S,GRP1005,Pioneer Health Systems,CAR01,Anthem Blue Cross Blue Shield,PLN103,PPO Platinum 500,EE + Child(ren),2023-06-19,,Active
+MBR100028,EMP50015,Amanda,Lee,M,1973-10-30,E,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Child(ren),2022-05-29,,Active
+MBR100029,EMP50015,Michelle,Torres,M,1956-07-28,S,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN101,HMO Silver 2500,EE + Child(ren),2022-05-21,2023-01-25,Terminated
+MBR100030,EMP50016,Charles,Hernandez,F,1998-09-26,D,GRP1005,Pioneer Health Systems,CAR05,Humana,PLN100,PPO Gold 1000,EE + Child(ren),2025-09-20,,Active
+MBR100031,EMP50016,William,Taylor,M,1959-08-09,D,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN102,HDHP Bronze 5000,EE + Spouse,2023-12-04,,Active
+MBR100032,EMP50017,Kenneth,Taylor,F,1972-07-12,D,GRP1001,Acme Manufacturing Inc,CAR01,Anthem Blue Cross Blue Shield,PLN103,PPO Platinum 500,EE + Child(ren),2022-04-01,,Active
+MBR100033,EMP50017,Deborah,Rodriguez,F,1964-06-30,D,GRP1005,Pioneer Health Systems,CAR04,Cigna,PLN104,EPO Silver 1500,EE Only,2022-08-18,,Active
+MBR100034,EMP50018,Brian,Martinez,M,1983-02-15,S,GRP1002,Northstar Logistics LLC,CAR04,Cigna,PLN101,HMO Silver 2500,EE Only,2023-09-24,,Active
+MBR100035,EMP50018,John,Thompson,M,2011-03-11,E,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN104,EPO Silver 1500,Family,2025-06-25,,Active
+MBR100036,EMP50019,Jessica,Hernandez,M,1986-12-28,E,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Spouse,2023-07-01,,Active
+MBR100037,EMP50019,Brian,Miller,F,1953-06-22,D,GRP1002,Northstar Logistics LLC,CAR02,UnitedHealthcare,PLN103,PPO Platinum 500,EE + Child(ren),2023-09-18,2024-03-12,Terminated
+MBR100038,EMP50020,Joseph,Johnson,M,1985-09-30,E,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN102,HDHP Bronze 5000,Family,2025-10-23,2026-09-22,Terminated
+MBR100039,EMP50020,Nancy,Johnson,M,1973-06-08,E,GRP1003,BlueRiver Financial Group,CAR01,Anthem Blue Cross Blue Shield,PLN100,PPO Gold 1000,Family,2023-12-09,,Active
+MBR100040,EMP50021,Christopher,Ramirez,M,1984-07-23,D,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN100,PPO Gold 1000,Family,2022-01-04,,Active
+MBR100041,EMP50021,Paul,Gonzalez,F,1988-09-10,E,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Child(ren),2025-09-20,2026-11-22,Terminated
+MBR100042,EMP50022,Karen,Allen,F,2009-10-30,E,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Spouse,2023-01-28,,Active
+MBR100043,EMP50022,Matthew,Lopez,F,1986-06-07,S,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN102,HDHP Bronze 5000,EE + Spouse,2024-05-30,,Active
+MBR100044,EMP50023,Joshua,Lee,F,1989-08-20,E,GRP1002,Northstar Logistics LLC,CAR05,Humana,PLN103,PPO Platinum 500,EE + Spouse,2025-09-11,,Active
+MBR100045,EMP50023,Steven,Flores,F,1958-05-19,D,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN101,HMO Silver 2500,EE + Spouse,2022-10-29,,Active
+MBR100046,EMP50024,Jessica,Walker,M,1990-11-10,E,GRP1006,Cedar Point Technologies,CAR05,Humana,PLN101,HMO Silver 2500,Family,2024-10-09,,Active
+MBR100047,EMP50024,Elizabeth,Smith,M,1988-02-22,E,GRP1006,Cedar Point Technologies,CAR05,Humana,PLN103,PPO Platinum 500,EE Only,2025-02-15,,Active
+MBR100048,EMP50025,Linda,Robinson,M,1991-09-08,S,GRP1005,Pioneer Health Systems,CAR05,Humana,PLN102,HDHP Bronze 5000,Family,2025-06-08,2026-04-22,Terminated
+MBR100049,EMP50025,Margaret,Scott,F,1964-04-12,D,GRP1004,Summit Retail Corp,CAR04,Cigna,PLN102,HDHP Bronze 5000,EE + Spouse,2025-07-29,,Active
+MBR100050,EMP50026,Deborah,King,F,2006-03-25,E,GRP1004,Summit Retail Corp,CAR01,Anthem Blue Cross Blue Shield,PLN102,HDHP Bronze 5000,EE + Spouse,2023-07-11,,Active
+MBR100051,EMP50026,Paul,Garcia,M,1963-07-14,E,GRP1006,Cedar Point Technologies,CAR02,UnitedHealthcare,PLN101,HMO Silver 2500,EE Only,2024-04-29,,Active
+MBR100052,EMP50027,Paul,Robinson,F,1955-08-03,E,GRP1004,Summit Retail Corp,CAR04,Cigna,PLN104,EPO Silver 1500,EE Only,2025-03-25,,Active
+MBR100053,EMP50027,James,Thompson,F,1984-12-27,D,GRP1004,Summit Retail Corp,CAR05,Humana,PLN104,EPO Silver 1500,EE + Spouse,2024-09-26,,Active
+MBR100054,EMP50028,Margaret,Young,M,1984-11-20,E,GRP1006,Cedar Point Technologies,CAR04,Cigna,PLN101,HMO Silver 2500,Family,2022-09-19,2023-08-18,Terminated
+MBR100055,EMP50028,Mary,Sanchez,M,1957-07-13,S,GRP1002,Northstar Logistics LLC,CAR04,Cigna,PLN101,HMO Silver 2500,EE Only,2023-06-17,,Active
+MBR100056,EMP50029,Susan,Robinson,F,1980-04-12,D,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Child(ren),2022-06-17,,Active
+MBR100057,EMP50029,Melissa,Wright,M,1981-05-25,E,GRP1001,Acme Manufacturing Inc,CAR01,Anthem Blue Cross Blue Shield,PLN100,PPO Gold 1000,EE + Spouse,2023-02-13,2024-02-26,Terminated
+MBR100058,EMP50030,Elizabeth,Thomas,M,1992-06-26,S,GRP1005,Pioneer Health Systems,CAR02,UnitedHealthcare,PLN103,PPO Platinum 500,EE + Child(ren),2024-01-26,,Active
+MBR100059,EMP50030,Joshua,Davis,M,1977-11-27,E,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN104,EPO Silver 1500,Family,2024-03-23,2024-08-31,Terminated
+MBR100060,EMP50031,Robert,Nguyen,M,1959-02-22,S,GRP1003,BlueRiver Financial Group,CAR05,Humana,PLN100,PPO Gold 1000,EE Only,2023-12-13,,Active
+MBR100061,EMP50031,Kevin,White,M,1995-05-24,S,GRP1001,Acme Manufacturing Inc,CAR04,Cigna,PLN103,PPO Platinum 500,EE Only,2024-06-06,2025-06-26,Terminated
+MBR100062,EMP50032,Sandra,Martinez,F,1965-10-20,D,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN104,EPO Silver 1500,Family,2024-08-10,,Active
+MBR100063,EMP50032,George,Nguyen,F,1978-12-01,D,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Spouse,2024-08-09,,Active
+MBR100064,EMP50033,Kevin,Harris,F,1952-07-29,E,GRP1003,BlueRiver Financial Group,CAR02,UnitedHealthcare,PLN103,PPO Platinum 500,EE + Spouse,2023-12-28,,Active
+MBR100065,EMP50033,Nancy,Moore,F,1999-11-12,E,GRP1002,Northstar Logistics LLC,CAR01,Anthem Blue Cross Blue Shield,PLN101,HMO Silver 2500,Family,2024-09-27,,Active
+MBR100066,EMP50034,Jessica,Walker,F,1990-03-17,D,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN101,HMO Silver 2500,Family,2025-11-17,,Active
+MBR100067,EMP50034,Kevin,Nguyen,F,1992-06-16,S,GRP1003,BlueRiver Financial Group,CAR04,Cigna,PLN104,EPO Silver 1500,EE + Child(ren),2023-12-22,,Active
+MBR100068,EMP50035,Sarah,Martin,F,1970-09-07,E,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN100,PPO Gold 1000,EE + Spouse,2023-01-28,,Active
+MBR100069,EMP50035,Donald,Moore,F,1959-01-08,D,GRP1003,BlueRiver Financial Group,CAR02,UnitedHealthcare,PLN102,HDHP Bronze 5000,EE + Spouse,2023-09-12,,Active
+MBR100070,EMP50036,Paul,Rodriguez,F,1954-01-31,D,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN101,HMO Silver 2500,Family,2022-07-30,2023-07-18,Terminated
+MBR100071,EMP50036,Charles,Walker,F,1989-07-08,E,GRP1001,Acme Manufacturing Inc,CAR03,Aetna,PLN103,PPO Platinum 500,EE Only,2022-05-14,,Active
+MBR100072,EMP50037,Robert,Torres,M,1963-08-12,E,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN100,PPO Gold 1000,EE + Spouse,2022-08-31,,Active
+MBR100073,EMP50037,Anthony,Hill,M,1996-11-18,E,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN104,EPO Silver 1500,Family,2023-09-18,,Active
+MBR100074,EMP50038,Patricia,Flores,M,1968-08-22,S,GRP1003,BlueRiver Financial Group,CAR01,Anthem Blue Cross Blue Shield,PLN101,HMO Silver 2500,EE + Spouse,2022-12-22,,Active
+MBR100075,EMP50038,David,Smith,F,1990-06-02,S,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN100,PPO Gold 1000,EE + Spouse,2023-08-14,,Active
+MBR100076,EMP50039,Brian,Robinson,M,2011-09-02,E,GRP1003,BlueRiver Financial Group,CAR05,Humana,PLN101,HMO Silver 2500,Family,2022-08-24,,Active
+MBR100077,EMP50039,Dorothy,Martinez,F,1962-10-05,E,GRP1002,Northstar Logistics LLC,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Child(ren),2024-06-18,,Active
+MBR100078,EMP50040,Brian,Martin,F,1974-06-04,S,GRP1004,Summit Retail Corp,CAR04,Cigna,PLN100,PPO Gold 1000,EE Only,2024-06-03,,Active
+MBR100079,EMP50040,Joshua,Taylor,M,1958-03-12,E,GRP1006,Cedar Point Technologies,CAR05,Humana,PLN104,EPO Silver 1500,EE Only,2025-10-08,2026-09-28,Terminated
+MBR100080,EMP50041,John,Lopez,F,1996-07-23,S,GRP1003,BlueRiver Financial Group,CAR02,UnitedHealthcare,PLN104,EPO Silver 1500,Family,2025-07-24,2025-11-07,Terminated
+MBR100081,EMP50041,Donald,Thompson,F,1979-11-26,E,GRP1001,Acme Manufacturing Inc,CAR02,UnitedHealthcare,PLN102,HDHP Bronze 5000,Family,2025-11-21,,Active
+MBR100082,EMP50042,Kevin,Sanchez,M,1990-10-21,E,GRP1003,BlueRiver Financial Group,CAR03,Aetna,PLN100,PPO Gold 1000,Family,2024-11-19,2025-01-18,Terminated
+MBR100083,EMP50042,Kevin,Wright,F,1987-01-28,E,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN104,EPO Silver 1500,Family,2025-07-04,,Active
+MBR100084,EMP50043,Patricia,Wilson,F,1999-04-10,E,GRP1003,BlueRiver Financial Group,CAR04,Cigna,PLN103,PPO Platinum 500,EE Only,2022-03-01,2023-03-07,Terminated
+MBR100085,EMP50043,Jessica,Hernandez,F,1999-06-02,E,GRP1004,Summit Retail Corp,CAR01,Anthem Blue Cross Blue Shield,PLN101,HMO Silver 2500,EE Only,2024-08-03,2025-08-29,Terminated
+MBR100086,EMP50044,Elizabeth,Young,F,1995-08-27,D,GRP1004,Summit Retail Corp,CAR04,Cigna,PLN103,PPO Platinum 500,EE + Spouse,2024-07-24,,Active
+MBR100087,EMP50044,Matthew,Gonzalez,M,1956-04-06,E,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Child(ren),2022-01-06,,Active
+MBR100088,EMP50045,Karen,Nguyen,F,1963-05-02,E,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN102,HDHP Bronze 5000,Family,2024-07-21,2024-12-24,Terminated
+MBR100089,EMP50045,Brian,Thomas,F,1970-12-15,D,GRP1004,Summit Retail Corp,CAR01,Anthem Blue Cross Blue Shield,PLN102,HDHP Bronze 5000,Family,2025-12-15,2026-08-27,Terminated
+MBR100090,EMP50046,Matthew,Martinez,F,1953-04-28,E,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN100,PPO Gold 1000,Family,2022-07-24,,Active
+MBR100091,EMP50046,Sandra,Smith,M,1986-10-13,D,GRP1002,Northstar Logistics LLC,CAR01,Anthem Blue Cross Blue Shield,PLN103,PPO Platinum 500,EE + Child(ren),2023-11-25,,Active
+MBR100092,EMP50047,Betty,Garcia,F,2010-07-02,D,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN103,PPO Platinum 500,EE Only,2025-06-18,,Active
+MBR100093,EMP50047,Kenneth,Jackson,M,1958-02-09,E,GRP1001,Acme Manufacturing Inc,CAR01,Anthem Blue Cross Blue Shield,PLN103,PPO Platinum 500,EE + Spouse,2025-11-22,,Active
+MBR100094,EMP50048,Mary,Williams,F,1955-01-13,E,GRP1003,BlueRiver Financial Group,CAR04,Cigna,PLN101,HMO Silver 2500,EE + Spouse,2024-12-23,,Active
+MBR100095,EMP50048,Carol,Lopez,M,1965-09-15,E,GRP1004,Summit Retail Corp,CAR05,Humana,PLN101,HMO Silver 2500,Family,2025-04-09,,Active
+MBR100096,EMP50049,Sandra,Taylor,F,1972-11-27,S,GRP1004,Summit Retail Corp,CAR03,Aetna,PLN104,EPO Silver 1500,EE + Spouse,2022-06-01,,Active
+MBR100097,EMP50049,Daniel,Nguyen,F,2007-04-28,D,GRP1006,Cedar Point Technologies,CAR03,Aetna,PLN103,PPO Platinum 500,EE + Child(ren),2023-02-12,2024-06-22,Terminated
+MBR100098,EMP50050,Donald,Miller,M,1984-03-19,S,GRP1005,Pioneer Health Systems,CAR03,Aetna,PLN102,HDHP Bronze 5000,EE Only,2025-09-10,,Active
+MBR100099,EMP50050,James,Torres,M,2004-05-27,D,GRP1003,BlueRiver Financial Group,CAR02,UnitedHealthcare,PLN104,EPO Silver 1500,EE + Child(ren),2023-03-25,,Active
+MBR100100,EMP50051,Michelle,Taylor,M,2006-05-13,E,GRP1006,Cedar Point Technologies,CAR01,Anthem Blue Cross Blue Shield,PLN102,HDHP Bronze 5000,Family,2022-03-10,,Active
