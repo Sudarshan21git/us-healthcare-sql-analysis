@@ -1,0 +1,79 @@
+--Derived Table + JOIN
+-- Find each member's total medical PAID_AMOUNT. Display only members whose total paid amount is greater than 5000.
+SELECT * FROM medical;	
+
+SELECT MEMBER_ID,
+TOTAL_AMOUNT FROM 
+(SELECT MEMBER_ID,SUM(PAID_AMOUNT) AS TOTAL_AMOUNT
+FROM
+medical 
+GROUP BY MEMBER_ID) AS M
+WHERE TOTAL_AMOUNT>5000;
+
+
+--Find each member's total pharmacy PAID_AMOUNT. Display only members whose total paid amount is greater than 3000.
+
+SELECT P.MEMBER_ID,
+P.TOTAL_PAID_AMOUNT
+FROM 
+(SELECT SUM(PAID_AMOUNT) AS TOTAL_PAID_AMOUNT,MEMBER_ID FROM pharmacy GROUP BY MEMBER_ID) AS P
+WHERE P.TOTAL_PAID_AMOUNT>3000;
+
+
+SELECT * FROM pharmacy
+
+
+--Display the following for members whose total medical paid amount is greater than 10000:
+--MEMBER_ID
+--Full name (FIRST_NAME + LAST_NAME)
+--Total medical paid amount
+
+SELECT E.MEMBER_ID,
+CONCAT(E.FIRST_NAME,'',E.LAST_NAME)AS FULL_NAME,
+M.TOTAL_PAID
+FROM eligibility AS E
+INNER JOIN
+(SELECT MEMBER_ID,SUM(PAID_AMOUNT) AS TOTAL_PAID FROM medical  GROUP BY MEMBER_ID) AS M
+ON E.MEMBER_ID=M.MEMBER_ID 
+WHERE M.TOTAL_PAID>10000;
+
+--Find members who have both medical and pharmacy claims.
+--Display MEMBER_ID, full name, total medical paid amount, and total pharmacy paid amount.
+
+SELECT E.MEMBER_ID,
+CONCAT(E.FIRST_NAME,'',E.LAST_NAME)AS FULL_NAME,
+M.TOTAL_AMOUNT,
+P.TOTAL_PAID_AMOUNT
+FROM eligibility
+AS E
+INNER JOIN
+(SELECT MEMBER_ID,SUM(PAID_AMOUNT) AS TOTAL_AMOUNT FROM medical GROUP BY MEMBER_ID)
+AS M ON E.MEMBER_ID=M.MEMBER_ID
+INNER JOIN 
+(SELECT MEMBER_ID,SUM(PAID_AMOUNT) AS TOTAL_PAID_AMOUNT FROM pharmacy GROUP BY MEMBER_ID)
+AS P
+ON E.MEMBER_ID=P.MEMBER_ID;
+
+
+--Find members whose total medical paid amount is greater than the average total medical paid amount per member.
+SELECT M.MEMBER_ID, M.TOTAL_AMOUNT
+FROM (
+
+    SELECT MEMBER_ID, SUM(PAID_AMOUNT) AS TOTAL_AMOUNT 
+    FROM medical 
+    GROUP BY MEMBER_ID
+) AS M
+WHERE M.TOTAL_AMOUNT > (
+
+    SELECT AVG(TOTAL_AMOUNTS) 
+    FROM (
+        SELECT SUM(PAID_AMOUNT) AS TOTAL_AMOUNTS 
+        FROM medical 
+        GROUP BY MEMBER_ID
+    ) AS sub
+);
+
+
+WITH MEDICAL_TOTALS AS(SELECT MEMBER_ID,SUM(PAID_AMOUNT)
+AS TOTAL_AMOUNT  FROM medical GROUP BY MEMBER_ID)
+SELECT  MEMBER_ID,TOTAL_AMOUNT FROM MEDICAL_TOTALS WHERE TOTAL_AMOUNT>(SELECT AVG(TOTAL_AMOUNT) FROM  MEDICAL_TOTALS);
